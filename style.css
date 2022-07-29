@@ -1,0 +1,77 @@
+
+body {
+  background-color: rgb(18, 44, 156);
+  font-family: Nanum Gothic, sans-serif;
+}
+
+h1 {
+  color: cornflowerblue;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+h2 {
+  color: cornflowerblue;
+  font-size: 15px;
+}
+
+h3 {
+  color: cornflowerblue;
+  font-size: 15px;
+}
+
+p {
+  color: rgb(5, 39, 101);
+  font-size: 15px;
+}
+
+
+a {
+  color: rgb(28, 64, 208);
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #eeeeee;
+
+}
+
+
+.card-container {
+  width: 700px;   /* This sets the width */
+  margin: 10px auto; /* This automatically sets left/right margins */
+}
+
+
+.card-white{
+  background: white;
+  padding: 50px;
+  border: 1px solid rgb(20, 110, 183);
+  border-radius: 5px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.card-white2{
+  background: rgb(250, 251, 251);
+  padding: 50px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
